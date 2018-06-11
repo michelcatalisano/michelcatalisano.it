@@ -11,7 +11,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link href="<link href="https://fonts.googleapis.com/css?family=Poppins:100,700" rel="stylesheet">
 
 <div class="wrapper" id="wrapper-index">
 

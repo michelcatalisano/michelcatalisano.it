@@ -1,6 +1,39 @@
+.content-home {
+  padding-left: 20%;
+  padding-top: 15%; }
+
 .main-title {
   font-size: 64px;
   font-family: "Poppins";
-  font-weight: 700; }
+  font-weight: 700;
+  color: #545454; }
+
+nav {
+  font-family: "Poppins";
+  font-weight: 100;
+  color: #545454; }
+
+#designer {
+  color: #49B7C4; }
+
+#photography {
+  color: #08415C; }
+
+#pugs {
+  color: #E39774; }
+
+.img-container {
+  max-height: 630px;
+  max-width: 630px;
+  background-color: red; }
+
+.row {
+  height: 100vh; }
+
+.paragraph {
+  font-family: "Poppins";
+  font-weight: 100;
+  font-size: 24px;
+  color: #545454; }
 
 /*# sourceMappingURL=style.css.map */
