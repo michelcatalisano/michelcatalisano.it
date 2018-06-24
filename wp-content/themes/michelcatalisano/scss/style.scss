@@ -7,7 +7,7 @@ $main-color: #545454;
   padding-top: 15%;
 }
 .main-title{
-  font-size: 64px;
+  font-size: 5vw;
   font-family: "Poppins";
   font-weight: 700;
   color: $main-color;
@@ -33,7 +33,16 @@ nav{
 .img-container{
   max-height: 630px;
   max-width: 630px;
-  background-color: red;
+  margin-top: 80px;
+  margin-left: 180px;
+  float: right;
+  padding: 0;
+  visibility: hidden;
+}
+
+.img {
+    display: block;
+    width: 100%;
 }
 
 .row{
@@ -43,6 +52,95 @@ nav{
 .paragraph{
   font-family: "Poppins";
   font-weight: 100;
-  font-size: 24px;
+  font-size: 2vw;
   color: $main-color;
+}
+
+.content-portfolio{
+  padding-left: 50px;
+  padding-right: 0;
+  padding-top: 100px;
+  max-width: 600px;
+}
+.navbar-brand{
+  z-index: 999 !important;
+}
+.menu-item{
+  z-index: 999 !important;
+}
+
+
+
+@media screen and (max-width: 860px) {
+  .paragraph{
+    font-size: 18px;
+    width: 300px;
+  }
+  .main-title{
+    font-size: 40px;
+  }
+  .content-portfolio{
+    padding-top: 40px;
+  }
+  .img-container{
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    width: 600px;
+    height: 600px;
+  }
+  .navbar-toggler{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .img-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content-home{
+    padding-left: 20px;
+    padding-top: 30%;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .img-container{
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav{
+    position: relative !important;
+    margin-top:30%;
+    margin-left: 30%;
+  }
+  .content-home{
+    padding-left: 20px;
+    padding-top: 50%;
+  }
+  .img-container{
+    width: 500px;
+  }
+}
+
+.navbar-toggler{
+  border-color: transparent !important;
+}
+.navbar-nav{
+  position: absolute;
+  right: 30px;
+  top:20px;
+}
+.navbar-brand{
+  position: absolute;
+  left: 40px;
+  top:20px;
 }

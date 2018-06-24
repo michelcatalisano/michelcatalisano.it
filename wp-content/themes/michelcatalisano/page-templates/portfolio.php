@@ -11,7 +11,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<link href="<link href="https://fonts.googleapis.com/css?family=Poppins:100,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,700" rel="stylesheet">
 
 <div class="wrapper" id="wrapper-index">
 
@@ -19,6 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 		<section id="work">
+			<div id="fullpage">
 				<?php
 					$query = new WP_Query(
 						array(
@@ -31,6 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				?>
 					<?php get_template_part( 'loop-templates/content', 'portfolio' ); ?>
 				<?php endwhile; wp_reset_query(); ?>
+			</div>
 	 	</section>
 
 
