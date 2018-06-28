@@ -11,9 +11,9 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<link href="<link href="https://fonts.googleapis.com/css?family=Poppins:100,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,700" rel="stylesheet">
 
-<div class="wrapper" id="wrapper-index">
+<div class="wrapper wrapper-home" id="wrapper-index">
 
 	<main id="main" class="site-main" role="main">
 
@@ -38,3 +38,4 @@ $container = get_theme_mod( 'understrap_container_type' );
   </main>
 
 <?php
+get_footer();
